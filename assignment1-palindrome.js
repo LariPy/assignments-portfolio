@@ -14,4 +14,5 @@ function isPalindrome(string) {
     return result
 }
 
+
 console.log(isPalindrome("saippuakivikauppias"))
