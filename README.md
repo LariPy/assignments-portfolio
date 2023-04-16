@@ -236,6 +236,6 @@ In the next part I use a function to accept arrays as a parameter. The function 
 Imagine that instead of 9 entries, the above array would have 100,000 entries. What would be the implications for performance and memory use between doing it like in a) or like in b)?
 ```
 
-I didn't make a function in part a), but for the sake of this question let's assume that a) is a function which modifies the given array directly and b) is a function which modifies the given array, but returns a new array instead.
+I didn't make a function in part a), but for the sake of this question let's assume that a) is a function which modifies the given array directly and b) is a function which creates a new array based on the given array and then modifies and returns it.
 
 I am no data scientist, but I would assume that a) would be faster, because it doesn't have to use resources to create and return a totally new array.
