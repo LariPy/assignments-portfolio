@@ -30,7 +30,6 @@ const averageScore = calculateAverageScore("DFCBDABSB");
 console.log(averageScore); // prints 3.6666666666666665
 
 function calculateAverageScore(grades) {
-
     return calculateTotalScore(grades) / grades.length
 }
 
