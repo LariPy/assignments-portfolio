@@ -1,4 +1,4 @@
-# Lari's Example Assignments Portfolio
+# Lari's Assignments Portfolio
 
 In this repository I showcase some of the assignments I have done in Trainee Academy.
 
